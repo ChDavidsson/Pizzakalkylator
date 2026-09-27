@@ -23,7 +23,10 @@ class Program
         Console.WriteLine($"Totalt utan moms: {Totalsumma}");
         // Momsbelopp
         double MomsBelopp = Totalsumma * Moms;
+        Console.WriteLine($"Moms: {MomsBelopp}");
         // Totalsumma med moms
+        double TotaltMedMoms = Totalsumma + MomsBelopp;
+        Console.WriteLine($"Totalt med moms: {TotaltMedMoms}");
         // Skriv ut alla tre resultaten på skärmen.
         // Tips:
         // Använd Convert.ToInt32() eller Convert.ToDouble() för att konvertera input
